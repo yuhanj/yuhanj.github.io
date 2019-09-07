@@ -13,6 +13,12 @@ First paragraph. Test the layout.Test the layout.Test the layout.Test the layout
 
 Second paragraph. Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.Test the layout.
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 Test the layout.Test the layout.Test the layout.Test the layout.
 
 
