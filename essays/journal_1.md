@@ -18,22 +18,23 @@ It was a story in the first "workout of the day" session of my software engineer
 After a few attempts, I started to realize that the C++ way of manipulating strings is not applicable in Javascript. I was trying hard to think about an alternative way to do this problem. However, I found there wasn't a way I could make sure that the code would work before time run out. Just before the time limit, I passed with a very inefficient way. 
 
 ```Javascript
+// my terrible code 
 function doubleSpaces(string){
-  let j = 0;
-  let str = [];
-  let result = "";
-  	for (let i = 0; i < string.length; i++){
-    	str[j] = string[i];
+    let j = 0;
+    let str = [];
+    let result = "";
+    for (let i = 0; i < string.length; i++){
+        str[j] = string[i];
     	if (string[i] == " ") {
-      	j ++;
-				str[j] = " ";
-			}
-      j ++;
+	    j ++;
+	    str[j] = " ";
+	}
+        j++;
     }
-  for (let i = 0; i < str.length; i++){
-  	result += str[i];
-  }
-	return result;    
+    for (let i = 0; i < str.length; i++){
+        result += str[i];
+    }
+    return result;    
 }
 
 
@@ -48,10 +49,10 @@ The algorithm is important. However, it's not enough only to know the algorithm.
 
 ```Javascript
 function doubleSpaces(string){
-	let result = "";
-	for (char of string){
-  	result += char == ' ' ? '  ' : char; 
-  }
+    let result = "";
+    for (char of string){
+        result += char == ' ' ? '  ' : char; 
+    }
   return result;
 }
 ```
