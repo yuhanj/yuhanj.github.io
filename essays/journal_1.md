@@ -45,7 +45,7 @@ console.log(doubleSpaces("nospaces"));         // Prints "nospaces"
 ```
 
 
-The algorithm is important. However, it's not enough only to know the algorithm. When my professor was talking about efficient ways, I realized that I had learned all of them. When I was learning python during the summer break, I had already learned about regular expression and ternary operator. Javascript is a language that absorbs many features from other languages. It is easy to learn, but it takes time to be familiar with it. 
+The algorithm is important, but implementation is also important. When my professor was talking about efficient ways, I realized that I had learned all of them. When I was learning python during the summer break, I had already learned about regular expression and ternary operator. Javascript is a language that absorbs many features from other languages. It is easy to learn, but it takes time to get familiar with it. 
 
 ```Javascript
 //if I knew the syntax ...
