@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/sha1.png
 title: Secure Hash Algorithm 1
 permalink: projects/sha1
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ summary: The implementation of the cryptographic hash function.
 
 For my ICS 212 Final Project, I implement the SHA-1 pseudocode using C.  SHA-1 is a cryptographic hash function which takes an input and produces a 160-bit hash value known as a message digest. SHA-1 was designed by the United States National Security Agency, and is a U.S. Federal Information Processing Standard.
 
-After a few complicated cryptographic steps, the function will produce a distinct message digest. The message digest should be the same as the sample output. If there is a tiny mistake in one step, the result will be completely different from the expected value.
+After a few complicated cryptographic steps, the function will produce a distinct message digest. The message digest should be the same as the sample output. If there is a tiny mistake in one step, the result will be completely different from the expected value. Since the programming environment didn't contain a debugger, all the functions need test output.
 
 Here's a part of my code:
 
