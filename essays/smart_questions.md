@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Save time on stupid questions
+title: How to get help from technique community?
 date: 2019-09-11
 labels:
   - Software Engineering
@@ -9,4 +9,4 @@ labels:
   - Community
 ---
 
-Test file.
+https://stackoverflow.com/questions/2582802/android-development-with-xcode
