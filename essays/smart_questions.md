@@ -15,17 +15,17 @@ First of all, what is a smart question? In my opinion, a smart question is a que
 
 I often visit StackOverflow to search for similar questions when I have some technical issues. I find that people who have a clear statement to the problem are more likely to get help. I think this one is an example of a smart question:
 
-<img class="image" src="/images/smart_quesion.png">
+<img class="ui image" src="{{ site.baseurl }}/images/smart_question.png">
 
 We can see that the statement part is short and precise; therefore, people can read it in a few seconds. Besides, the code is attached with highlights and comments. Therefore, people who want to answer this question address the issue at a glance.
 
 As a result,  people post their solutions in different ways. The publisher, the contributors, and the people who are reading this post can all learn something. This post is an effective, efficient, and helpful one which demonstrates how a smart question looks like.
 
-<img class="image" src="/images/smart_quesion_answer.png">
+<img class="ui image" src="{{ site.baseurl }}/images/smart_question_answer.png">
 
 However, when the publishers don't put effort on the questions by themselves, these posted questions will waste others' time. Here is an example:
 
-<img class="image" src="/images/bad_quesion.png">
+<img class="ui image" src="{{ site.baseurl }}/images/bad_question.png">
 
 First, the publisher should not attach the code as a photo. We cannot quickly run a piece of code from a photo. Second, the publisher didn't spend much time on the problem. People who are reading the code can easily find there are too many errors, and the publisher doesn't even double-check the code. I think this kind of post is wasting people's time.
 
