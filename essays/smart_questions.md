@@ -9,4 +9,4 @@ labels:
   - Community
 ---
 
-<a herf="https://stackoverflow.com/questions/2582802/android-development-with-xcode"> link </a>
+https://stackoverflow.com/questions/2582802/android-development-with-xcode"
