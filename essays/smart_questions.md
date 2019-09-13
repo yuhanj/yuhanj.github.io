@@ -21,9 +21,15 @@ As a result,  people post their solutions in different ways. The publisher, the 
 
 
 Sources:
+
 How To Ask Questions The Smart Way - Eric Raymond
+
 http://www.catb.org/esr/faqs/smart-questions.html
+
 Smart Question Example:
+
 https://stackoverflow.com/questions/4616202/self-references-in-object-literals-initializers
+
 Not-Smart Question Example:
+
 https://stackoverflow.com/questions/38080635/javascript-if-statement-does-not-work
