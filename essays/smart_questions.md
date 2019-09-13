@@ -27,7 +27,7 @@ However, when the publishers don't put effort on the questions by themselves, th
 
 <img class="ui image" src="{{ site.baseurl }}/images/bad_question.png">
 
-First, the publisher should not attach the code as a photo. We cannot quickly run a piece of code from a photo. What's more, the photo is hiden in a text link. Second, the publisher didn't spend much time on the problem. People who are reading the code can easily find there are too many errors, and the publisher doesn't even double-check the code. I think this kind of post is wasting people's time.
+First, the publisher should not attach the code as a photo. We cannot quickly run a piece of code from a photo. What's more, the photo is hiden in a text link. Second, the publisher didn't spend much time on the problem. People who are reading the code can easily find there are too many errors, and the publisher doesn't even double-check the code.
 
 Asking questions in a smart way can save people's time, and the post will be a good example for people who have a similar issue. This is the way how we can get effective and efficient help from a technic community. We need to follow the rules, then people will say welcome to us.
 
