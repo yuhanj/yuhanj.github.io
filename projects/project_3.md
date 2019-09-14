@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/tutor.png
 title: Voluntary Tutor
-permalink: projects/p3
+permalink: projects/tutor
 # All dates must be YYYY-MM-DD format!
 date: 2017-09-01
 labels:
