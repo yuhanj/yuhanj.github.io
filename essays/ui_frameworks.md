@@ -19,7 +19,7 @@ labels:
   Here is the website I created within 40 minutes. I think experienced web developers will take much less time with their familiar UI framework.
 <img class="ui image" src="{{ site.baseurl }}/images/tori-richard.jpg">
 
-  Semantic UI is so neat. The class names for the elements are basically the same as English language. For example, if I want to insert an menu to my web page, I can write class="ui menu". If I don't want the border between the items, I can change the class name to "ui borderless menu".
+  Semantic UI is so neat. The class names for the elements are basically the same as English language. For example, if I want to insert an menu to my web page, I can write ```class="ui menu"```. If I don't want the border between the items, I can change the class name to ```class="ui borderless menu"```.
 
 
 
