@@ -10,13 +10,13 @@ labels:
   - Semantic UI
 ---
 
-Many people might have such a question: why do we need to use UI frameworks? I think the answer is simple: it helps us create better UI and saves time.
+  Many people might have such a question: why do we need to use UI frameworks? I think the answer is simple: it helps us create better UI and saves time.
 
-Learning a new framework like semantic UI indeed takes a lot of time. It's not easy to understand all the terms. Semantic UI is a powerful tool with tremendous implements that helps build a website. However, the abundance of functionality also means the cost of time to learn.
+  Learning a new framework like semantic UI indeed takes a lot of time. It's not easy to understand all the terms. Semantic UI is a powerful tool with tremendous implements that helps build a website. However, the abundance of functionality also means the cost of time to learn.
 
-It has been less than one week since I first time tried to learn semantic UI. I took half of my day watching the videos about semantic UI. After that, I tried to put my previous work in to the new framework. The most significant difference is that I don't need to use my own stylesheet as much. Semantic UI has most UI designs already built in. The only thing I need tto do is to set a correct class name for the element.
+  It has been less than one week since I first time tried to learn semantic UI. I took half of my day watching the videos about semantic UI. After that, I decided to put my previous work into the new framework. The most significant difference is that I don't need to use my own stylesheet as much. Semantic UI has most UI designs already built-in. The only thing I need to do is to set a correct class name for the element.
 
-Here is the website I created within 40 minutes. I think experienced web developers will take much less time with their familiar UI framework.
+  Here is the website I created within 40 minutes. I think experienced web developers will take much less time with their familiar UI framework.
 
 
 
