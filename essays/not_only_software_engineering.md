@@ -9,7 +9,7 @@ labels:
   - Testing
 ---
 
-Today is the last day of my final project for ICS 314, Software Engineering. I'm excited that all the efforts my team has made will be presented to the world. Thanks to my professor Dr. Johnson and my TA, Branden Ogata. I admit that I have spent a lot of time in this course, and I have learned a lot as well. I think I've gained significantly more understanding about this course from an actual group final project, Beyond the Library. [(Here is a link to my project for more details)](https://beyond-the-library.github.io/) Agile Project Management and Testing are the two major tools I kept in mind during the development.
+Today is the last day of my final project for ICS 314, Software Engineering. I'm excited that all the efforts my team has made will be presented to the world. Thanks to my professor Dr. Johnson and my TA Branden. I admit that I have spent a lot of time in this course, and I have learned a lot as well. I think I've gained significantly more understanding about this course from an actual group final project, Beyond the Library. [(Here is a link to my project for more details)](https://beyond-the-library.github.io/) Agile Project Management and Testing are the two major tools I kept in mind during the development.
 
 <h2> Agile Project Management</h2>
 
