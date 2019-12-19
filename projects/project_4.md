@@ -35,3 +35,9 @@ For milestone 3, I spent most of the time on adding more functionality to the pr
 Based on the feedback from our testing users, I added several buttons and pop-up alerts with links to help users keep track of a designed pathway. For example, I modified the add spot function to be three-steps. The user could fill in some necessary information about the spot and quit; otherwise, they could also go ahead and fill in more details.
 
 <img class="ui image" src="{{ site.baseurl }}/images/btl-addspot.png">
+
+<h2>What I have learned</h2>
+
+It was my first time to take part in a software engineering group project. In this project, I learned significantly more than other class assignments. Practice is the best of all instructors. The templates were helpful for the fundamental structure. However, when I was trying to add innovative features, I had to learn all the modules, read their documentation, and test my code again and again until I understand how they worked.
+
+Besides, I have also learned a lot about teamwork. All of my teammates had their specialties and preference. Besides the data structure, they designed a decent art style and created some pages. We discussed a lot about ideas and features to avoid redundant work. Communication was the key we worked together to present this project.
