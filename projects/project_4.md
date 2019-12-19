@@ -9,7 +9,6 @@ date: 2019-12-18
 labels:
   - Software Engineering
   - Web Application
-  - User Interface
   - Group Project
   - Javascript
   - React
@@ -30,7 +29,7 @@ I made MySpots page for users to contribute their spots. I also designed an alte
 
 <img class="ui image" src="{{ site.baseurl }}/images/btl-allspots.png">
 
-For milestone 3, I spent most of the time on adding more functionality to the project. I helped my team to integrate all the modules with internal links and redirection. For instance, users could click on a spot and enter its location page; they could also click on a pin on the map to see more details and comments. 
+By the end, I spent most of the time on adding more functionality to the project. I helped my team to integrate all the modules with internal links and redirection. For instance, users could click on a spot and enter its location page; they could also click on a pin on the map to see more details and comments. 
 
 Based on the feedback from our testing users, I added several buttons and pop-up alerts with links to help users keep track of a designed pathway. For example, I modified the add spot function to be three-steps. The user could fill in some necessary information about the spot and quit; otherwise, they could also go ahead and fill in more details.
 
