@@ -7,6 +7,7 @@ permalink: projects/tutor
 # All dates must be YYYY-MM-DD format!
 date: 2017-09-01
 publish: off
+draft: on
 labels:
   - Voluntary
 summary: I volunteered as a tutor to teach students to learn Chinese at Kapiolani Community College.
