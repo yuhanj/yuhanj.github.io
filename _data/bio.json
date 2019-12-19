@@ -53,8 +53,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "React"
       ]
     },
     {
@@ -62,10 +61,12 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
+        "Windows",
+        "Intellij Idea",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "Meteor",
+        "MongoDB"
       ]
     }
   ],
