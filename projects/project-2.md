@@ -9,7 +9,7 @@ date: 2018-05-02
 labels:
   - Java
   - GitHub
-summary: A game developed for ICS 211.
+summary: A Java based simple game developed for ICS 211.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/GUI.png">
