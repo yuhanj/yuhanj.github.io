@@ -26,3 +26,5 @@ During the development, the thing I did most was testing. Each time after I adde
 Another testing was to find other students to use our project and give us feedback. Based on their feedback, I added more links and instructions for the users. For example, the Add Spot page was overwhelming: the user was asked to fill in the URL of the image and the GPS coordinates of a spot. To deal with that, I asked one of my teammates to write some instructions on the FAQ session. Besides, I spent some time and used a tricky way to make the form to be three-steps. I hid the most challenging parts to the end so that the user won't give up too early.
 
 <h2>More than Coding</h2>
+
+Agile Project Management and Testing are just small parts of what I have learned in this class. There are many other vital aspects I've learned for my future career. For example, the coding standard helps me write more readable codes, and ethics in Software Engineering helps me know what the creed of computing professionals is.
