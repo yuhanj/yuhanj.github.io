@@ -18,23 +18,5 @@ PokemonGone is my final project for ICS 211. This object-oriented project integr
 
 In this game, the player is a pokemon trainer. The player can catch wild pokemon and fight against other pokemon trainers. The general idea of this game is based on the Pokemon series.
 
-Here is a part of my source code: 
-
-```Java
-   /**
-   * private set method for new hit points and combat power
-   * when the pokemon levels up.
-   */
-   public void powerUp() {
-      this.hitPnts = (int) (this.hitPnts + 1.15 + (0.2 * this.hitPnts));
-      Random rGen = new Random();
-      double multiplier = 1.0 + 2.0 * rGen.nextDouble();
-       
-      int cp = (int) (this.hitPnts * multiplier);
-      if (cp >= this.comPwr) {
-         this.comPwr = cp;
-      }
-   } 
-
-```
+[Github Project Page](https://github.com/yuhanj/s18-a9-pokemon-gui-yuhanj)
 
