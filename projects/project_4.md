@@ -20,6 +20,7 @@ summary: A Web Application that helps UHM students find study spots.
 Beyond The Library is my final group project for ICS 314. It is a web application that helps students at the University of Hawaii at Manoa to find a place to study. Many students prefer the library in UHM; however, sometimes the library gets full, and students may feel lost. We want to help them explore other study spots. 
 
 [Organization Page](https://beyond-the-library.github.io/)
+
 <img class="ui image" src="{{ site.baseurl }}/images/btl-landing.png">
 
 <h2>My Role</h2>
