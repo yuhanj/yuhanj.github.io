@@ -97,7 +97,7 @@ console.log(attack_count);
     x: date_arr,
     y: attack_total_arr,
     type: 'scatter',
-    name: 'Attack Up To Today',
+    name: 'Total Attack',
     marker: {
       color: color3,
       size: 12
@@ -108,7 +108,7 @@ console.log(attack_count);
     x: date_arr,
     y: death_total_arr,
     type: 'scatter',
-    name: 'Death Up To Today',
+    name: 'Total Death',
     marker: {
       color: color4,
       size: 12
