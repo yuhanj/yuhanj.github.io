@@ -4,10 +4,14 @@
 d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
 
   let date_arr = _.map(_.pluck(data, 'Date'), function (date) {
-    date = date.replace('-Aug', '/8');
-    date = date.replace('-Sep', '/9');
-    date = date.replace('-1854', '')
+
+    date = date.replace('-1854', '');
+    let month = date.slice(-3);
+    month = (month == 'Aug') ? '8' : '9';
+    date = date.substr(0, date.length - 4);
+    date = month + '/' + date;
     return date;
+
   });
   
   let attack_arr = _.map(_.pluck(data, 'Attack'), (num) => (parseInt(num)));
