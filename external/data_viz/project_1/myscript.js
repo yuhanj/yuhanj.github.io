@@ -22,7 +22,7 @@ d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
   let color4 = '#423144'
 
   // table 1
-  let table1_arr = [['attack', 'death', 'total attack', 'total death']]
+  let table1_arr = [['Attack', 'Death', 'Total Attack', 'Total Death']]
   var headerColor = "grey";
   var rowEvenColor = "lightgrey";
   var rowOddColor = "white";
@@ -60,6 +60,7 @@ console.log(attack_count);
       font: {family: "Arial", size: 11, color: ["black"]}
     }
   }]
+
 
   table1Div = document.getElementById('table1');
 
@@ -112,10 +113,8 @@ console.log(attack_count);
 
   data1 = [trace0, trace1, trace2, trace3];
   plot1Div = document.getElementById('plot1');
-  var layout = {
-    title: "Chart 1"
-  };
-  var myChart1 = Plotly.plot(plot1Div, data1, layout);
+
+  var myChart1 = Plotly.plot(plot1Div, data1);
 
 })
 
