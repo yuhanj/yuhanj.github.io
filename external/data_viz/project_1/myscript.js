@@ -64,7 +64,7 @@ console.log(attack_count);
 
   table1Div = document.getElementById('table1');
 
-  Plotly.newPlot('table1', data);
+  Plotly.newPlot('table1', data, 0);
 
   // chart 1
   var trace0 = {
@@ -114,7 +114,7 @@ console.log(attack_count);
   data1 = [trace0, trace1, trace2, trace3];
   plot1Div = document.getElementById('plot1');
 
-  var myChart1 = Plotly.plot(plot1Div, data1);
+  var myChart1 = Plotly.plot(plot1Div, data1, 0);
 
 })
 
