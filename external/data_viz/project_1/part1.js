@@ -29,18 +29,18 @@ d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
   let color4 = '#423144'
 
   // table 1
-  let table1_arr = [['Attack', 'Death', 'Total Attack', 'Total Death']]
+  let table1_arr = [['<b>Attack<b>', '<b>Death<b>', '<b>Total Attack<b>', '<b>Total Death<b>']]
   let date_arr_t1 = [...date_arr];
   let attack_count = 0;
   let death_count = 0;
   let table1_column_width = [];
   let table1_column_order = Array.from(Array(attack_arr.length).keys());
   for (let i = 0; i < attack_arr.length; i++) {
-    table1_column_width.push(50);
+    table1_column_width.push(30);
   }
-  table1_column_width[0] = 200;
+  table1_column_width[0] = 100;
   console.log(attack_arr, table1_column_width, table1_column_order);
-  date_arr_t1.unshift('Date');
+  date_arr_t1.unshift('<b>Date<b>');
 
   // re-arrange data
   for(let i = 0; i < date_arr.length; i++) {
