@@ -1,8 +1,7 @@
 
-
-// chart
 d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
 
+  // make date string shorter
   let date_arr = _.map(_.pluck(data, 'Date'), function (date) {
 
     date = date.replace('-1854', '');
@@ -19,22 +18,31 @@ d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
   let attack_total_arr = [];
   let death_total_arr = [];
 
-  // color
-  let color1 = '#FFDBC5'
-  let color2 = '#CF1B1B'
-  let color3 = '#900D0D'
+  // colors
+  // attack
+  let color1 = '#FFBBBB'
+  // death
+  let color2 = '#726174'
+  // total attack
+  let color3 = '#CF1B1B'
+  // total death
   let color4 = '#423144'
 
   // table 1
   let table1_arr = [['Attack', 'Death', 'Total Attack', 'Total Death']]
-  var headerColor = "grey";
-  var rowEvenColor = "lightgrey";
-  var rowOddColor = "white";
   let date_arr_t1 = [...date_arr];
   let attack_count = 0;
   let death_count = 0;
+  let table1_column_width = [];
+  let table1_column_order = Array.from(Array(attack_arr.length).keys());
+  for (let i = 0; i < attack_arr.length; i++) {
+    table1_column_width.push(50);
+  }
+  table1_column_width[0] = 200;
+  console.log(attack_arr, table1_column_width, table1_column_order);
   date_arr_t1.unshift('Date');
 
+  // re-arrange data
   for(let i = 0; i < date_arr.length; i++) {
     attack_count += attack_arr[i];
     attack_total_arr.push(attack_count);
@@ -51,17 +59,19 @@ console.log(attack_count);
     header: {
       values: date_arr_t1,
       align: "center",
+      columnorder: table1_column_order,
+      columnwidth: table1_column_width,
       line: {width: 1, color: 'black'},
-      fill: {color: headerColor},
-      font: {family: "Arial", size: 12, color: "white"}
+      fill: {color: "grey"},
+      font: {family: "Arial", size: 11, color: "white"}
     },
     cells: {
       values: table1_arr,
       align: "center",
       line: {color: "black", width: 1},
-      fill: {color: [[rowOddColor,rowEvenColor,rowOddColor,
-          rowEvenColor,rowOddColor]]},
-      font: {family: "Arial", size: 11, color: ["black"]}
+      fill: {color: [[color1, color2,color3,
+          color4]]},
+      font: {family: "Arial", size: 11, color: [["black", "black", "white", "white"]]}
     }
   }]
 
@@ -121,5 +131,4 @@ console.log(attack_count);
   var myChart1 = Plotly.plot(plot1Div, data1, 0);
 
 })
-
 
