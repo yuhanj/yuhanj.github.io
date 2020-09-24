@@ -40,16 +40,13 @@ Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function(err, data){
     table1_column_order.push(i + 1);
   }
   for (let i = 0; i <= attack_arr.length; i++) {
-    table1_column_width.push(30);
+    table1_column_width.push(20);
   }
   for (let i = 0; i <= attack_arr.length; i++) {
     table1_column_align.push("right");
   }
   table1_column_align[0] = 'left';
-  table1_column_align[3] = 'left';
   table1_column_width[0] = 100;
-  table1_column_width[3] = 100;
-  table1_column_width[5] = 100;
   console.log(table1_column_width, table1_column_order, table1_column_align);
   date_arr_t1.unshift('<b>Date<b>');
 
@@ -67,11 +64,11 @@ console.log(attack_count);
 
   var data = [{
     type: 'table',
+    columnorder: table1_column_order,
+    columnwidth: table1_column_width,
     header: {
       values: date_arr_t1,
       align: "center",
-      columnorder: table1_column_order,
-      columnwidth: table1_column_width,
       line: {width: 1, color: 'black'},
       fill: {color: "grey"},
       font: {family: "Arial", size: 12, color: "white"}
@@ -82,7 +79,7 @@ console.log(attack_count);
       line: {color: "black", width: 1},
       fill: {color: [[color1, color2,color3,
           color4]]},
-      font: {family: "Arial", size: 12, color: [["black", "black", "white", "white"]]}
+      font: {family: "Arial", size: 11, color: [["black", "black", "white", "white"]]}
     }
   }]
 
