@@ -35,12 +35,17 @@ Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function(err, data){
   let death_count = 0;
   let table1_column_width = [];
   let table1_column_order = [];
+  let table1_column_align = [];
   for (let i = 0; i < attack_arr.length; i++) {
     table1_column_order.push(i + 1);
   }
   for (let i = 0; i < attack_arr.length; i++) {
     table1_column_width.push(20);
   }
+  for (let i = 0; i < attack_arr.length; i++) {
+    table1_column_align.push("right");
+  }
+  table1_column_align[0] = 'left';
   table1_column_width[0] = 100;
   console.log(table1_column_width, table1_column_order);
   date_arr_t1.unshift('<b>Date<b>');
@@ -70,7 +75,7 @@ console.log(attack_count);
     },
     cells: {
       values: table1_arr,
-      align: "center",
+      align: table1_column_align,
       line: {color: "black", width: 1},
       fill: {color: [[color1, color2,color3,
           color4]]},
