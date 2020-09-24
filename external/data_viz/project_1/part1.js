@@ -1,5 +1,5 @@
 
-d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
+Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function(err, data){
 
   // make date string shorter
   let date_arr = _.map(_.pluck(data, 'Date'), function (date) {
@@ -22,7 +22,7 @@ d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
   // attack
   let color1 = '#FFBBBB'
   // death
-  let color2 = '#726174'
+  let color2 = '#A2A1A4'
   // total attack
   let color3 = '#CF1B1B'
   // total death
@@ -34,12 +34,15 @@ d3.tsv("Cholera/choleraDeaths.tsv").then(function (data) {
   let attack_count = 0;
   let death_count = 0;
   let table1_column_width = [];
-  let table1_column_order = Array.from(Array(attack_arr.length).keys());
+  let table1_column_order = [];
   for (let i = 0; i < attack_arr.length; i++) {
-    table1_column_width.push(30);
+    table1_column_order.push(i + 1);
+  }
+  for (let i = 0; i < attack_arr.length; i++) {
+    table1_column_width.push(20);
   }
   table1_column_width[0] = 100;
-  console.log(attack_arr, table1_column_width, table1_column_order);
+  console.log(table1_column_width, table1_column_order);
   date_arr_t1.unshift('<b>Date<b>');
 
   // re-arrange data
@@ -63,7 +66,7 @@ console.log(attack_count);
       columnwidth: table1_column_width,
       line: {width: 1, color: 'black'},
       fill: {color: "grey"},
-      font: {family: "Arial", size: 11, color: "white"}
+      font: {family: "Arial", size: 12, color: "white"}
     },
     cells: {
       values: table1_arr,
@@ -71,7 +74,7 @@ console.log(attack_count);
       line: {color: "black", width: 1},
       fill: {color: [[color1, color2,color3,
           color4]]},
-      font: {family: "Arial", size: 11, color: [["black", "black", "white", "white"]]}
+      font: {family: "Arial", size: 12, color: [["black", "black", "white", "white"]]}
     }
   }]
 
@@ -129,6 +132,8 @@ console.log(attack_count);
   plot1Div = document.getElementById('plot1');
 
   var myChart1 = Plotly.plot(plot1Div, data1, 0);
+
+
 
 })
 

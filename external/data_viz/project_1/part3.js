@@ -1,38 +1,44 @@
 // # UK census 1851
 // # http://www.visionofbritain.org.uk/
 
-d3.csv("Cholera/UKcensus1851.csv").then(function (data) {
+Plotly.d3.csv('Cholera/UKcensus1851.csv', function(err, data){
 
+  let color_age = '#DDDDDD';
   let color_male = "#b3cbf5";
   let color_female = "#ffe0e0";
-  let color_total = "#00BBAA";
+  let color_total = "#99DDDD";
   let color_male_arr = ["#ecf2fc","#d9e5fa","#c6d8f7","#b3cbf5","#a0bef2","#8cb1ef","#79a4ed","#6697ea","#538ae8"];
   let color_female_arr = ["#fff0f0","#ffe0e0","#ffd1d1","#ffc2c2","#ffb3b3","#ffa3a3","#ff9494","#ff8585","#ff7575"];
 
   let age_arr = _.map(_.pluck(data, 'age'), (num) => (num));
   let male_arr = _.map(_.pluck(data, 'male'), (num) => (parseInt(num)));
   let female_arr = _.map(_.pluck(data, 'female'), (num) => (parseInt(num)));
+  let male_arr_comma = _.map(male_arr, (num) => (num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")));
+  let female_arr_comma = _.map(female_arr, (num) => (num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")));
   let total_arr = [];
   for (let i = 0; i < male_arr.length; i ++) {
     total_arr.push(male_arr[i] + female_arr[i]);
   }
+  let total_arr_comma = _.map(total_arr, (num) => (num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")));
   let male_total = _.reduce(male_arr, (memo, num) => (memo + num));
   let female_total = _.reduce(female_arr, (memo, num) => (memo + num));
+
+
   var data4 = [{
     type: 'table',
     header: {
-      values: ["Age", "Male", "Female", "Total"],
+      values: ["<b>Age<b>", "<b>Male<b>", "<b>Female</b>", "<b>Total</b>"],
       align: "center",
       line: {width: 1, color: 'black'},
       fill: {color: "grey"},
-      font: {family: "Arial", size: 12, color: "white"}
+      font: {family: "Arial", size: 14, color: "white"}
     },
     cells: {
-      values: [age_arr, male_arr, female_arr, total_arr],
-      align: "center",
+      values: [age_arr, male_arr_comma, female_arr_comma, total_arr_comma],
+      align: ["center", "right", "right", "right"],
       line: {color: "black", width: 1},
-      fill: {color: ["grey", color_male, color_female, color_total]},
-      font: {family: "Arial", size: 11, color: ["white", "black", "black", "white"]}
+      fill: {color: [color_age, color_male, color_female, color_total]},
+      font: {family: "Arial", size: 12, color: ["black", "black", "black", "black"]}
     }
   }]
 
@@ -54,7 +60,8 @@ d3.csv("Cholera/UKcensus1851.csv").then(function (data) {
   }]
 
   var layout = {
-    height: 400,
+    title: "Male",
+    height: 450,
     width: 400,
     margin: {"t": 0, "b": 0, "l": 0, "r": 0},
     showlegend: false
@@ -76,7 +83,8 @@ d3.csv("Cholera/UKcensus1851.csv").then(function (data) {
   }]
 
   var layout = {
-    height: 400,
+    title: "Female",
+    height: 450,
     width: 400,
     margin: {"t": 0, "b": 0, "l": 0, "r": 0},
     showlegend: false
@@ -98,7 +106,8 @@ d3.csv("Cholera/UKcensus1851.csv").then(function (data) {
   }]
 
   var layout = {
-    height: 400,
+    title: "Male vs Female",
+    height: 450,
     width: 400,
     margin: {"t": 0, "b": 0, "l": 0, "r": 0},
     showlegend: false
@@ -128,7 +137,10 @@ d3.csv("Cholera/UKcensus1851.csv").then(function (data) {
 
   var data3 = [trace1, trace2];
 
-  var layout = {barmode: 'group'};
+  var layout = {
+    barmode: 'group',
+    height: 400
+  };
 
   Plotly.newPlot('bar3', data3, layout);
 

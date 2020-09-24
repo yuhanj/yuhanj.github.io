@@ -1,10 +1,51 @@
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+Plotly.d3.csv('Cholera/choleraPumpLocations.csv', function (err, data_pump) {
+  Plotly.d3.csv('Cholera/choleraDeathLocations.csv', function (err, data_death) {
+    let pump_latitude = _.map(_.pluck(data_pump, 'latitude'), (e) => (e));
+    let pump_longitude = _.map(_.pluck(data_pump, 'longitude'), (e) => (e));
+    let death_latitude = _.map(_.pluck(data_death, 'latitude'), (e) => (e));
+    let death_longitude = _.map(_.pluck(data_death, 'longitude'), (e) => (e));
+    let death_num = _.map(_.pluck(data_death, 'death'), (e) => (parseInt(e)));
+    console.log(death_longitude);
+    let scale = [
+      ['0.0', '#555555'],
+      ['0.2', '#664949'],
+      ['0.4', '#883a3a'],
+      ['0.6', '#AA2c2c'],
+      ['0.8', '#CC1d1d'],
+      ['1.0', '#EE0000']
+    ];
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  maxZoom: 18,
-  id: 'mapbox/streets-v11',
-  tileSize: 512,
-  zoomOffset: -1,
-  accessToken: 'your.mapbox.access.token'
-}).addTo(mymap);
+
+
+    var data = [
+      {
+        type: "scattermapbox",
+        name: "Pump",
+        lat: pump_latitude,
+        lon: pump_longitude,
+        marker: { color: "#0088CC", size: 20 },
+      },
+      {
+        type: "scattermapbox",
+        name: "Death",
+        text: _.map(death_num, (num) => ('Death: '+ num)),
+        lat: death_latitude,
+        lon: death_longitude,
+        marker: {
+          color: death_num,
+          colorscale: scale,
+          reversescale: false,
+          opacity: 0.8,
+          size: _.map(death_num, (num) => (num + 6))}
+      }
+    ];
+
+    var layout = {
+      dragmode: "zoom",
+      mapbox: { style: "open-street-map", center: { lat: 51.513, lon: -0.137 }, zoom: 15 },
+      margin: { r: 0, t: 0, b: 0, l: 0 }
+    };
+
+    Plotly.newPlot("map1", data, layout, { showLink: false });
+  })
+});

@@ -4,10 +4,11 @@
 // # For more information about Cholera in Naples:
 // # https://www.nejm.org/doi/full/10.1056/NEJM199610103351520
 
-d3.tsv("Cholera/naplesCholeraAgeSexData.tsv").then(function (data) {
+Plotly.d3.tsv('Cholera/naplesCholeraAgeSexData.tsv', function(err, data){
 
-  let color_male = "#70ade5"
-  let color_female = "#ffcbcb"
+  let color_age = '#DDDDDD';
+  let color_male = "#b3cbf5";
+  let color_female = "#ffe0e0";
 
   let age_arr = _.map(_.pluck(data, 'age'), (str) => (str));
   let male_arr = _.map(_.pluck(data, 'male'), (num) => (parseInt(num)));
@@ -17,18 +18,18 @@ d3.tsv("Cholera/naplesCholeraAgeSexData.tsv").then(function (data) {
   var data2 = [{
     type: 'table',
     header: {
-      values: ["Age", "Male", "Female"],
+      values: ["<b>Age<b>", "<b>Male<b>", "<b>Female</b>"],
       align: "center",
       line: {width: 1, color: 'black'},
       fill: {color: "grey"},
-      font: {family: "Arial", size: 12, color: "white"}
+      font: {family: "Arial", size: 14, color: "white"}
     },
     cells: {
       values: [age_arr, male_arr, female_arr],
-      align: "center",
+      align: ["center", "right", "right"],
       line: {color: "black", width: 1},
-      fill: {color: ["grey", color_male, color_female]},
-      font: {family: "Arial", size: 11, color: ["white", "white", "black"]}
+      fill: {color: [color_age, color_male, color_female]},
+      font: {family: "Arial", size: 12, color: ["black", "black", "black"]}
     }
   }]
 
@@ -58,7 +59,10 @@ d3.tsv("Cholera/naplesCholeraAgeSexData.tsv").then(function (data) {
 
   var data3 = [trace1, trace2];
 
-  var layout = {barmode: 'group'};
+  var layout = {
+    barmode: 'group',
+    height: 400
+  };
 
   Plotly.newPlot('bar2', data3, layout);
 })
