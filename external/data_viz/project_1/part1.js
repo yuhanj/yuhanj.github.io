@@ -46,7 +46,9 @@ Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function(err, data){
     table1_column_align.push("right");
   }
   table1_column_align[0] = 'left';
+  table1_column_align[3] = 'left';
   table1_column_width[0] = 100;
+  table1_column_width[3] = 100;
   console.log(table1_column_width, table1_column_order, table1_column_align);
   date_arr_t1.unshift('<b>Date<b>');
 
