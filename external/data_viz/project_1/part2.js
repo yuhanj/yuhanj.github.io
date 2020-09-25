@@ -34,7 +34,6 @@ Plotly.d3.tsv('Cholera/naplesCholeraAgeSexData.tsv', function(err, data){
   }]
 
   var layout = {
-    title: "Naples in the Time of Cholera ",
   }
   table1Div = document.getElementById('table2');
   Plotly.newPlot('table2', data2, layout);
@@ -63,9 +62,29 @@ Plotly.d3.tsv('Cholera/naplesCholeraAgeSexData.tsv', function(err, data){
   var data3 = [trace1, trace2];
 
   var layout = {
-    title: "Naples in the Time of Cholera ",
     barmode: 'group',
-    height: 400
+    height: 400,
+    annotations: [
+      {
+        xref: 'paper',
+        yref: 'paper',
+        x: 0.3,
+        xanchor: 'right',
+        y: 1,
+        yanchor: 'bottom',
+        text: 'Deaths per 10,000 inhabitants',
+        showarrow: false
+      }, {
+        xref: 'paper',
+        yref: 'paper',
+        x: 1,
+        xanchor: 'left',
+        y: 0,
+        yanchor: 'top',
+        text: 'Age group',
+        showarrow: false
+      }
+    ]
   };
 
   Plotly.newPlot('bar2', data3, layout);

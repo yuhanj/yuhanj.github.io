@@ -85,7 +85,7 @@ Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function (err, data) {
   }]
 
   var layout = {
-    title: "Daily Attacks and Deaths",
+    title: "Daily Attacks and Deaths of Cholera in UK, 1854",
   }
   table1Div = document.getElementById('table1');
 
@@ -139,7 +139,7 @@ Plotly.d3.tsv('Cholera/choleraDeaths.tsv', function (err, data) {
   data1 = [trace0, trace1, trace2, trace3];
   plot1Div = document.getElementById('plot1');
   var layout = {
-    title: "The Trend of Attacks and Deaths of Cholera",
+    title: "The Trend of Attacks and Deaths of Cholera in UK, 1854",
     annotations: [{
       xref: 'paper',
       yref: 'paper',

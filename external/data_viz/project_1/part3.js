@@ -139,7 +139,28 @@ Plotly.d3.csv('Cholera/UKcensus1851.csv', function(err, data){
 
   var layout = {
     barmode: 'group',
-    height: 400
+    height: 400,
+    annotations: [
+      {
+        xref: 'paper',
+        yref: 'paper',
+        x: 0.1,
+        xanchor: 'right',
+        y: 1,
+        yanchor: 'bottom',
+        text: 'Population',
+        showarrow: false
+      }, {
+        xref: 'paper',
+        yref: 'paper',
+        x: 1,
+        xanchor: 'left',
+        y: 0,
+        yanchor: 'top',
+        text: 'Age group',
+        showarrow: false
+      }
+    ]
   };
 
   Plotly.newPlot('bar3', data3, layout);
