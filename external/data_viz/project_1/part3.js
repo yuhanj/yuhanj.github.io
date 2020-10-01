@@ -38,7 +38,7 @@ Plotly.d3.csv('Cholera/UKcensus1851.csv', function(err, data){
       align: ["center", "right", "right", "right"],
       line: {color: "black", width: 1},
       fill: {color: [color_age, color_male, color_female, color_total]},
-      font: {family: "Arial", size: 12, color: ["black", "black", "black", "black"]}
+      font: {family: "Arial", size: 14, color: ["black", "black", "black", "black"]}
     }
   }]
 
