@@ -11,8 +11,8 @@ Plotly.d3.tsv('Cholera/naplesCholeraAgeSexData.tsv', function(err, data){
   let color_female = "#ffe0e0";
 
   let age_arr = _.map(_.pluck(data, 'age'), (str) => (str));
-  let male_arr = _.map(_.pluck(data, 'male'), (num) => (parseInt(num)));
-  let female_arr = _.map(_.pluck(data, 'female'), (num) => (parseInt(num)));
+  let male_arr = _.map(_.pluck(data, 'male'), (num) => (parseFloat(num)).toFixed(1));
+  let female_arr = _.map(_.pluck(data, 'female'), (num) => (parseFloat(num)).toFixed(1));
 
 
   var data2 = [{

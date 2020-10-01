@@ -23,7 +23,7 @@ Plotly.d3.csv('Cholera/choleraPumpLocations.csv', function (err, data_pump) {
         name: "Pump",
         lat: pump_latitude,
         lon: pump_longitude,
-        marker: { color: "#0066DD", size: 15 },
+        marker: { color: "#0099EE", size: 15 },
       },
       {
         type: "scattermapbox",
