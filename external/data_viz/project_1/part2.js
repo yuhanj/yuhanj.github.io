@@ -29,7 +29,7 @@ Plotly.d3.tsv('Cholera/naplesCholeraAgeSexData.tsv', function(err, data){
       align: ["center", "right", "right"],
       line: {color: "black", width: 1},
       fill: {color: [color_age, color_male, color_female]},
-      font: {family: "Arial", size: 12, color: ["black", "black", "black"]}
+      font: {family: "Arial", size: 13, color: ["black", "black", "black"]}
     }
   }]
 
