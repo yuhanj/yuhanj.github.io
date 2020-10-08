@@ -32,9 +32,7 @@ Plotly.d3.csv('Cholera/choleraPumpLocations.csv', function (err, data_pump) {
         lat: death_latitude,
         lon: death_longitude,
         marker: {
-          color: death_num,
-          colorscale: scale,
-          reversescale: false,
+          color: "#EE0000",
           opacity: 0.9,
           size: _.map(death_num, (num) => (num + 7))}
       }
