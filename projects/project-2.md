@@ -4,7 +4,6 @@ type: project
 image: images/pokemonGone.png
 title: PokemonGone
 permalink: projects/pokemonGone
-# All dates must be YYYY-MM-DD format!
 date: 2018-05-02
 labels:
   - Java
