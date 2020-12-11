@@ -13,7 +13,9 @@ labels:
   - Firebase
   - Secrity
   - iOS development
-summary: A iOS mobile app for the Topic UH Building security in Hawaii Annual Coding Challenge.
+summary: HACC 2020 Project: A Secured Mobile Visitor Registration System.
 ---
 
-See if this one works
+## What is HACC?
+
+Hawaii Annual Coding Challenge (HACC) is a unique hackathon that lasts for three weeks to encourage the developers and the event sponsors to communicate and provide sustainable solutions to the state of Hawaii.
