@@ -13,7 +13,7 @@ labels:
   - Firebase
   - Secrity
   - iOS development
-summary: HACC 2020 Project: A Secured Mobile Visitor Registration System.
+summary: HACC 2020 Project - A Secured Mobile Visitor Registration System.
 ---
 
 ## What is HACC?
@@ -62,11 +62,17 @@ For Reception:
 
 ## How do we work together?
 
-### 1. Data structure and workflow design
+### 1. Understand the requirement
 
-### 2. Communication!
+Before the HACC kick-off day, everyone in our team carefully read the requirement documentations to find our some topics that we may work on. After that, each of us went to a event breakout room to talk with the event sponsor. When I was listening to the event sponsor of UH security, Mr. Michael Hodges, I was drawing the blueprint in my mind. I asked him more details about the requirement, such as the relationship between the badges and the visitors. When the one hour event description section was over, the blueprint was done and I knew exactly what to do next.
 
-### 3. I am the user?
+### 2. Data structure and workflow design
+
+On the next day, I decided to draw those flowcharts for my team instead of having a huge QA session. I was not sure how to draw those flowcharts, but I found some useful online tools to save some works. I gave these flowcharts to my teammates and answered more questions from them.
+
+
+### 3. Communication!
+
 
 ## What did I learn?
 
