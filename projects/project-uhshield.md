@@ -26,6 +26,11 @@ In this year, I joined the HACC 2020 with my friends <a href="https://tianhuizho
 
 ## What is UHShield?
 
+### About the challenge
+
+Some UH buildings require significant access control, such as the IT Center.  The ITC has an Emergency Situation Room and a Data Center. Currently, building security requires physical monitoring of guests, which is resource intensive and not always feasible. The goal of this challenge is to explore application designs that improve security for UH buildings while reducing personnel costs.
+
+
 ## How do we work together?
 
 ## What did I learn?
