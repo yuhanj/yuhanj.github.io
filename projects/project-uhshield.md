@@ -24,4 +24,8 @@ summary: HACC 2020 Project: A Secured Mobile Visitor Registration System.
 
 In this year, I joined the HACC 2020 with my friends <a href="https://tianhuizhou.github.io/">Tianhui Zhou</a> and <a href="https://heweiron.github.io/">Weirong He</a>. We together worked on the UH building security topic and won the third prize.
 
+## What is UHShield?
 
+## How do we work together?
+
+## What did I learn?
