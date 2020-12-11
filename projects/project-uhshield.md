@@ -22,13 +22,13 @@ summary: HACC 2020 Project - A Secured Mobile Visitor Registration System.
 
 <a href="https://hacc.hawaii.gov/">Hawaii Annual Code Challenge (HACC)</a> is a unique hackathon that lasts for a few weeks to encourage the developers and the event sponsors to communicate and provide sustainable solutions for the state of Hawaii.
 
-In this year, I joined the HACC 2020 with my friends <a href="https://tianhuizhou.github.io/">Tianhui Zhou</a> and <a href="https://heweiron.github.io/">Weirong He</a>. We formed Team Trigeeks, worked together on the UH building security topic and won the third prize.
+This year, I joined the HACC 2020 with my friends <a href="https://tianhuizhou.github.io/">Tianhui Zhou</a> and <a href="https://heweiron.github.io/">Weirong He</a>. We formed Team Trigeeks, worked together on the UH building security topic, and won the third prize.
 
 ## What is UHShield?
 
 ### About the challenge
 
-Some UH buildings require significant access control, such as the IT Center.  The ITC has an Emergency Situation Room and a Data Center. Currently, building security requires physical monitoring of guests, which is resource intensive and not always feasible. The goal of this challenge is to explore application designs that improve security for UH buildings while reducing personnel costs.
+Some UH buildings require significant access control, such as the IT Center. Currently, building security requires physical monitoring of guests, which is resource-intensive and not always feasible. This challenge aims to explore application designs that improve security for UH buildings while reducing personnel costs. The developer should make a web/mobile application to improve the workflow and reduce personnel cost.
 
 ### Our solution
 
