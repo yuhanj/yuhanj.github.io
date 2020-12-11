@@ -86,4 +86,11 @@ The major difference between this team Trigeeks and other teams was communicatio
 
 ### Teamwork is the key
 
+Besides this project, I was always the only one who led the team and did the majority of the work. It was impossible to make a project by myself and won a prize in this challenging hackathon event.
+
+I was lucky to get the chance to be a member of an active team. I want to say that this project is a great success for me because it was the first time that every team member was actively involved and equally contributed to the final deliverable. My teammate Tianhui and Weirong helped me a lot during the three weeks of development. We helped each other whenever there were some technicle difficulties. We encouraged each other and inspired the creative ideas that could be used to improve our product.
+
 ### Great Experience
+
+Even though we only got the third place, I think the result was success because we made a decent product with a new language that we just learned in this semester. It was hard to learn several new languages in a semester and make some projects. I'm glad that during this busy semester, I have been efficiently used my time to conquer all the challenges. This third prize is not thee end, I will look for more chances to challenge myself and get better results in the future.
+
