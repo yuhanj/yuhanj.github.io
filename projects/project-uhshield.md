@@ -93,3 +93,5 @@ I was lucky to get the chance to be a member of an energetic team. I want to say
 
 Even though we only got third place, I think the result was a success because we made a decent product with a new language that we just learned this semester. It was hard to learn several new languages in a semester and make some projects. I'm glad that I have been efficiently used my time to conquer all the challenges during this busy semester. This third prize is not the end, and I will look for more chances to challenge myself and get better results in the future.
 
+Devpost Page: <a href="https://devpost.com/software/uhshield">UHShield</a>
+Github Repo Source : <a href="https://github.com/HACC2020/Trigeeks"><i class="large github icon "></i>UHShield</a>
