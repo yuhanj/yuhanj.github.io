@@ -62,4 +62,14 @@ For Reception:
 
 ## How do we work together?
 
+### 1. Data structure and workflow design
+
+### 2. Communication!
+
+### 3. I am the user?
+
 ## What did I learn?
+
+### Teamwork is the key
+
+### Great Experience
