@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/UHS.png
 title: UHShield
-permalink: projects/UHShield
+permalink: projects/uhshield
 # All dates must be YYYY-MM-DD format!
 date: 2020-12-10
 labels:
