@@ -16,6 +16,7 @@ PokemonGone is my final project for ICS 211. This object-oriented project integr
 
 In this game, the player is a pokemon trainer. The player can catch wild pokemon and fight against other pokemon trainers. The general idea of this game is based on the Pokemon series.
 
+
 [Github Project Page](https://github.com/yuhanj/s18-a9-pokemon-gui-yuhanj)
 
 <img class="ui image" src="{{ site.baseurl }}/images/GUI.png">
