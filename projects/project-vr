@@ -2,13 +2,16 @@
 layout: project
 type: project
 image: images/finalQuest.png
-title: Final Quest
+title: UHShield
 permalink: projects/finalQuest
 # All dates must be YYYY-MM-DD format!
-date: 2020-12-22
+date: 2020-12-10
 labels:
-  - Unity
-  - Virtual Reality
-summary: My First VR Project.
+  - Native App
+  - XCode
+  - Swift
+  - Firebase
+  - Secrity
+  - iOS development
+summary: HACC 2020 Project - A Secured Mobile Visitor Registration System.
 ---
-Test
