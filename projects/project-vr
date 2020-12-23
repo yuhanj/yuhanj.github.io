@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/UHS.png
+image: images/finalQuest.png
 title: Final Quest
 permalink: projects/final-quest
 # All dates must be YYYY-MM-DD format!
@@ -13,3 +13,6 @@ labels:
 summary: My First VR Project.
 ---
 
+Final Quest is my first VR project.
+
+<div class="ui embed" data-source="youtube" data-id="PTDldaLsA" >
