@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/finalQuest.png
 title: Final Quest
-permalink: projects/final-quest
+permalink: projects/finalQuest
 # All dates must be YYYY-MM-DD format!
 date: 2020-12-22
 labels:
