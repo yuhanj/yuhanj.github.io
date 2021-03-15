@@ -45,4 +45,4 @@ For players who don't like read the numbers, we also provide the rankings for op
 
 
 
-Github Repo Source : <a href="https://github.com/ICS-484-Rainbow6/Rainbow6"><i class="large github icon "></i>UHShield</a>
+Github Repo Source : <a href="https://github.com/ICS-484-Rainbow6/Rainbow6"><i class="large github icon "></i>Rainbow 6 Siege Data Analysis</a>
