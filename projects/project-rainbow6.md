@@ -36,7 +36,7 @@ We want to make a website that provides interesting topics for the players of Ra
 
 Players can easily find useful information for their rank levels and platforms. The dropdown menus allow the players to narrow down the search to find the most accurate subset of data from the large 19GB dataset.
 
-<img class="ui big right image" src="../images/r6_page3.png">
+<img class="ui image" src="../images/r6_page3.png">
 
 
 ### Easy to read charts and graphs
