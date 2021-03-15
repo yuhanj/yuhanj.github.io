@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/UHS.png
+image: images/r6_icon.png
 title: Rainbow 6 Siege Data Analysis
 permalink: projects/rainbow6
 # All dates must be YYYY-MM-DD format!
