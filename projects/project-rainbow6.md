@@ -43,8 +43,8 @@ Players can easily find useful information for their rank levels and platforms. 
 
 For players who don't like read the numbers, we also provide the rankings for operators based on their presence rate and performance.
 
-<img class="ui big right image" src="../images/r6_page1top.png">
-<img class="ui big right image" src="../images/r6_page1bot.png">
+<img class="ui image" src="../images/r6_page1top.png">
+<img class="ui image" src="../images/r6_page1bot.png">
 
 ## What's my role in this project?
 
