@@ -18,7 +18,7 @@ summary: HACC 2020 Project - A Secured Mobile Visitor Registration System.
 
 ## What is HACC?
 
-<img class="ui big right image" src="../images/HACC.png">
+<img class="ui image" src="../images/HACC.png">
 
 <a href="https://hacc.hawaii.gov/">Hawaii Annual Code Challenge (HACC)</a> is a unique hackathon that lasts for a few weeks to encourage the developers and the event sponsors to communicate and provide sustainable solutions for the state of Hawaii.
 
@@ -72,9 +72,9 @@ Before the HACC kick-off day, everyone in our team carefully read the requiremen
 
 On the next day, I decided to draw those flowcharts for my team instead of having a QA session. I was not sure how to draw those flowcharts, but I believed that the flowcharts could help reduce uncertainty.
 
-<img class="ui big right image" src="../images/uhs_data.png">
-<img class="ui big right image" src="../images/uhs_sponsor.png">
-<img class="ui big right image" src="../images/uhs_reception.png">
+<img class="ui image" src="../images/uhs_data.png">
+<img class="ui image" src="../images/uhs_sponsor.png">
+<img class="ui image" src="../images/uhs_reception.png">
 
 
 ### 3. Communication!
