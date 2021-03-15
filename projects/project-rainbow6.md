@@ -20,7 +20,7 @@ This dataset is an official Rainbow Six Siege data peek from Ubisoft. This datas
 
 This is my first time work on such a big dataset. I think it would be a good chance for me to learn Python and its libraries and use them to do some data analysis. Besides that, building a website without using HTML/JS/CSS is something that I've never tried before. Therefore, I decided to start this project and see how far I can go with these new tools.
 
-<img class="ui big right image" src="../images/r6_page2.png">
+<img class="ui image" src="../images/r6_page2.png">
 
 ## What's cool about this project?
 
@@ -29,7 +29,7 @@ This is my first time work on such a big dataset. I think it would be a good cha
 We want to make a website that provides interesting topics for the players of Rainbow 6 Siege. For example, there is a laser sight attachment option for most primary and secondary weapons. It tightens a weapon's hip-fire accuracy and a shotgun pellet's spread; on the other hand, laser sight might expose the user to the enemy. Whether using laser sights has been a controversial question for a long time. However, we can use my website to find the relationship between using laser sights and the win rate to find out whether a laser sight is good or not.
 
 
-<img class="ui big right image" src="../images/r6_page4.png">
+<img class="ui image" src="../images/r6_page4.png">
 
 
 ### Cusomizable searches for all levels of players
