@@ -29,6 +29,8 @@ This is my first time work on such a big dataset. I think it would be a good cha
 We want to make a website that provides interesting topics for the players of Rainbow 6 Siege. For example, there is a laser sight attachment option for most primary and secondary weapons. It tightens a weapon's hip-fire accuracy and a shotgun pellet's spread; on the other hand, laser sight might expose the user to the enemy. Whether using laser sights has been a controversial question for a long time. However, we can use my website to find the relationship between using laser sights and the win rate to find out whether a laser sight is good or not.
 
 
+<img class="ui big right image" src="../images/r6_page4.png">
+
 
 ### Cusomizable searches for all levels of players
 
